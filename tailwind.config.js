@@ -4,7 +4,16 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+      },
+      colors: {
+        baseCyan: '#3DB0FF',
+        baseBlue: '#081494',
+        dashGray: '#F9F9F9',
+      },
+    },
   },
   plugins: [],
 }
