@@ -6,16 +6,13 @@ const Home: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
-        <title>Create Next App</title>
+        <title>Hostbeak | By Oreoluwa</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <h1 className="text-6xl font-bold">
-          Hi, I'm{' '}
-          <a className="text-blue-700" href="https://nextjs.org">
-            Oreoluwa
-          </a>
+          Hi, I'm <span className="text-blue-700">Oreoluwa</span>
         </h1>
 
         <p className="mt-3 text-2xl">Ogoluwa's Front-end test for HostGeak</p>
@@ -46,7 +43,7 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="/view-reports"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">View Reports Page &rarr;</h3>
