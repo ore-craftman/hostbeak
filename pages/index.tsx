@@ -60,7 +60,7 @@ const Home: NextPage = () => {
           >
             <h3 className="text-2xl font-bold">See My Code &rarr;</h3>
             <p className="mt-4 text-xl">
-              Before the talks get too much.. Check see{' '}
+              Before the talks get too much.. Check{' '}
               <code className="my-2 rounded-md bg-gray-200 p-2">my code</code>
             </p>
           </a>

@@ -42,7 +42,7 @@ const Signup: NextPage = () => {
             Perfomance
           </p>
         </aside>
-        <section className="mx-4 w-full md:mx-10 md:w-6/12 lg:mx-24 xl:mx-40 2xl:mx-48">
+        <section className="mx-5 w-full md:mx-10 md:w-6/12 lg:mx-24 xl:mx-40 2xl:mx-48">
           <section className="mb-5">
             <h3 className="text-xl font-bold text-blue-900">Create Account</h3>
             <p className="text-gray-400">Build an exceptional business</p>
@@ -83,7 +83,7 @@ const Signup: NextPage = () => {
               <FormInput
                 label="Email Address"
                 inputType="tel"
-                defaultText="Enter your phone email"
+                defaultText="Enter your email"
                 value={email}
                 stateHandler={setEmail}
               />
